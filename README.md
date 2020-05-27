@@ -18,7 +18,7 @@ Sample text: "Antropozoologia57.28Archaeology41.0070.64Archeologia30.8264.44Arch
 
 Firstly tokenizer splits text into lines using line_regex, next each line is tokenized using token_regex. It is also possible to adjust CSV column deliminiter using column_deliminiter virable as well as line deliminiter through line_deliminiter virable.
 
-Configuring virables parser:</br>
+Configuration virables parser:</br>
 ```python
 column_deliminiter = '^' 
 line_deliminiter = '\n'
